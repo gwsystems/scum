@@ -1,4 +1,11 @@
-# Recycling Sorter
+# scum
+
+   ____________  ______ ___ 
+  / ___/ ___/ / / / __ `__ \
+ (__  ) /__/ /_/ / / / / / /
+/____/\___/\__,_/_/ /_/ /_/ 
+                            
+
 A smart 2-in-1 recycling and trash bin that automatically sorts recyclables from
 trash. This system provides a embedded application for sunneed. It uses a
 raspberry pi with a webcam and servos to sort recyclables from trash. Installed
