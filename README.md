@@ -1,10 +1,5 @@
-# scum
-
-   ____________  ______ ___  
-  / ___/ ___/ / / / __ `__ \  
- (__  ) /__/ /_/ / / / / / /  
-/____/\___/\__,_/_/ /_/ /_/   
-                            
+# sparcfire
+Solar Powered Automatic Recycling Container For Independent Research Endeavors
 
 A smart 2-in-1 recycling and trash bin that automatically sorts recyclables from
 trash. This system provides a embedded application for sunneed. It uses a
