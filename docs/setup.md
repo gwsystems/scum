@@ -1,4 +1,5 @@
 # Raspberry Pi Setup
+This walks through how to set up a Raspberry Pi 4 for Sparcfire, starting from an image, to setting up the Python environment.
 
 ## Image
 1. Use Pi Imager
