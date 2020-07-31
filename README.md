@@ -4,6 +4,7 @@ trash. This system provides a embedded application for [sunneed](https://github.
 Sparcfire uses a raspberry pi with a camera and servos to sort recyclables from trash. Sparcfire could benefit urban areas by reducing recycling contamination and providing a city scale sensing platform.
 
 ## The System
+<img src="https://github.com/gwsystems/sparcfire/blob/master/docs/mockup.png" alt="diagram" width="500"/>
 Sparcfire uses a modified swing-lid style trash can with a recycling and trash compartment. A passerby places an item on the lid, where an overhead camera identifies the object. Sparcfire categorizes the item as recyclable or trash and unlocks the appropriote side of the swing-lid to allow the object to fall into its corresponding bin.
 
 ### Capabilites
