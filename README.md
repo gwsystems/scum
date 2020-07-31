@@ -14,7 +14,7 @@ Sparcfire uses a modified swing-lid style trash can with a recycling and trash c
 ## Installation
 
 ### Raspberry Pi
-Follow the documentation [here](https://docs.google.com/document/d/1e_PN6ShMLrPp-xht5e6tAIZ53sMQi1K1XGqgeyfKUgE/edit?usp=sharing).
+Follow the documentation [here](https://github.com/gwsystems/sparcfire/blob/master/docs/setup.md).
 
 ### Computer
 TODO
