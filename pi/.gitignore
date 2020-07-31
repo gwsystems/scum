@@ -1,0 +1,3 @@
+# ignore jpgs and h264 videos
+*.jpg
+*.h264

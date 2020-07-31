@@ -14,3 +14,9 @@ filename.jpg
 *downloads/
 *benchmark/
 *Waste-Sorter/
+
+# virtual env
+*venv/
+
+# pycache
+*__pycache__/
