@@ -107,3 +107,10 @@ Use python virtual environments to isolate packages
 3. `sudo apt install libatlas3-base libwebp6 libtiff5 libjasper1 libilmbase23 libopenexr23 libavcodec58 libavformat58 libavutil56 libswscale5 libgtk-3-0 libpangocairo-1.0-0 libpango-1.0-0 libatk1.0-0 libcairo-gobject2 libcairo2 libgdk-pixbuf2.0-0 libqtgui4 libqt4-test libqtcore4`
 4. `pip3 install opencv-python==3.4.6.27`, latest version doesn’t work well with Pi
 
+## Setting up LED strip
+https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/
+1. `sudo apt-get update
+2. `sudo apt-get install scons swig`
+3. `sudo vim /etc/modprobe.d/snd-blacklist.conf`, add the following line, `blacklist snd_bcm2835`
+4. `sudo vim /boot/config.txt`, comment out `#dtparam=audio=on`
+5. `sudo reboot`
