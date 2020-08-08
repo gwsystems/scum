@@ -3,14 +3,17 @@
 # run using `./install.sh`
 
 # Variables
-user=sparcfire
 
-echo "setting up new user $user"
-adduser $user
+# Create new user
+./createuser.sh
+
+# Modify raspi-config
+
+# Update packages
+
+# Install packages
+
+# Prepare Python virtualenv
 
 
-echo "raspi-config"
-echo "updating packages"
-echo "installing packages"
-echo "preparing python virtualenv"
-
+exit

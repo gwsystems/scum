@@ -1,16 +1,16 @@
 #!/bin/bash
 
+# Create user named sparcfire
 user=sparcfire
-match=false
-while [ "$match" = false ]
-do
-	#create user here
-	read -s -p "Enter password: " passwd1
-	echo ""
-	read -s -p "Enter password again: " passwd2
-	if [[ "$passwd1" == "$passwd2" ]]
-	then
-		match=true	
-	fi
-done
-echo -e "\ndone"
+echo "Creating new user $user"
+adduser $user
+adduser $user sudo
+echo "Created user $user"
+
+
+# Lock pi password, use `sudo passwd pi` to unlock
+passwd --lock pi
+
+
+exit
+
