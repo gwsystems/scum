@@ -114,3 +114,50 @@ https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-st
 3. `sudo vim /etc/modprobe.d/snd-blacklist.conf`, add the following line, `blacklist snd_bcm2835`
 4. `sudo vim /boot/config.txt`, comment out `#dtparam=audio=on`
 5. `sudo reboot`
+
+
+# History dump from LED strip
+
+sudo apt-get update
+sudo apt-get install gcc make build-essential
+sudo apt-get install python-dev
+sudo apt get install scons
+sudo apt-get install scons
+sudo apt-get install swig
+sudo vim /etc/modprobe.d/snd-blacklist.conf
+sudo vim /boot/config.txt
+sudo reboot
+
+git clone https://github.com/jgarff/rpi_ws281x
+cd rpi_ws281x/
+sudo scons
+sudo python setup.py build
+sudo python setup.py install
+
+sudo PYTHONPATH=".:build/lib.linux-armv7l-2.7" python examples/strandtest.py
+
+sudo python3 setup.py build
+sudo python3 setup.py install
+sudo pip3 install rpi_ws281x
+sudo python3 test.py -c
+
+pip3 list --local
+pip list --local
+
+sudo pip uninstall rpi-ws281x
+pip freeze > requirements.txt
+cat requirements.txt 
+
+chmod -x testpasswd.sh
+./testpasswd.sh
+ls
+chmod -x testpasswd.sh
+./testpasswd.sh
+ls -l
+bash testpasswd.sh 
+vim testpasswd.sh 
+bash testpasswd.sh 
+ls -l
+cd ..
+chmod -x install/testpasswd.sh 
+chmod 755 testpasswd.sh
