@@ -34,6 +34,7 @@ def fill(strip, color, wait_ms=0):
         strip.setPixelColor(i, color)
         strip.show()
 
+
 # TODO:
 #def glow(color):
 #def fade(color):
